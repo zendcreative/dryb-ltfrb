@@ -1,0 +1,73 @@
+<aside class="navigation">
+  <nav>
+    <ul class="nav luna-nav">
+
+      @if(nav_summary)
+        <li class="active"><a href="/">Summary & Trips</a></li>
+      @else
+        <li><a href="/">Summary & Trips <span class="label label-default">2</span></a></li>
+      @endif
+
+      @if(nav_profile)
+        <li class="active"><a href="/profile">Profile</a></li>
+      @else
+        <li><a href="/profile">Profile</a></li>
+      @endif
+
+      @if(nav_invites)
+        <li class="active"><a href="/invites">Invites</a></li>
+      @else
+        <li><a href="/invites">Invites</a></li>
+      @endif
+
+      @if(nav_drivers)
+        <li class="active"><a href="/drivers">Drivers</a></li>
+      @else
+        <li><a href="/drivers">Drivers <span class="label label-default">5</span></a></li>
+      @endif
+
+      @if(nav_live_map)
+        <li class="active"><a href="/live-map">Live Map</a></li>
+      @else
+        <li><a href="/live-map">Live Map</a></li>
+      @endif
+
+      @if(nav_vehicles)
+        <li class="active"><a href="/vehicles">Vehicles</a></li>
+      @else
+        <li><a href="/vehicles">Vehicles</a></li>
+      @endif
+
+      @if(nav_payment_statements)
+        <li class="active"><a href="/payment-statements">Payment Statements</a></li>
+      @else
+        <li><a href="/payment-statements">Payment Statements</a></li>
+      @endif
+
+      @if(nav_partner_invoices)
+        <li class="active"><a href="/partner-invoices">Partner Invoices</a></li>
+      @else
+        <li><a href="/partner-invoices">Partner Invoices</a></li>
+      @endif
+
+      @if(nav_trip_invoices)
+        <li class="active"><a href="/trip-invoices">Trip Invoices</a></li>
+      @else
+        <li><a href="/trip-invoices">Trip Invoices</a></li>
+      @endif
+
+      @if(nav_help)
+        <li class="active"><a href="/help">Help</a></li>
+      @else
+        <li><a href="/help">Help</a></li>
+      @endif
+
+      <li class="nav-info">
+        <i class="pe pe-7s-shield text-accent"></i>
+        <div class="m-t-xs">
+            <span class="c-white">DRYB</span> admin theme with Dark UI style for monitoring and administration web applications.
+        </div>
+      </li>
+    </ul>
+  </nav>
+</aside>
